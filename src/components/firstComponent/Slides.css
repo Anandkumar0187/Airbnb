@@ -1,0 +1,32 @@
+.mycard{
+    position: relative;
+}
+.mycard > img{
+    /* max-width: 600px; */
+    max-height: 300px;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+.mycard > p{
+    margin-left: 100px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+.mycard > h3{
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+.mycard > button{
+    margin-left: 100px;
+    margin-top: 250px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+}

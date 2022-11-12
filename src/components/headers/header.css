@@ -1,0 +1,77 @@
+.h-header{
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+    display: flex;
+    border-bottom: 1.5px solid #eeebeb;
+  }
+  .h-logo_head{
+    margin: 24px 0 0 80px;
+  }
+  .h-logo{
+    width: 102px;
+    height: 32px;
+  }
+  .h-host{
+    background-color: transparent;
+    margin-top: -40px;
+    /* padding-top: -40px; */
+    margin-bottom: 10px;
+    border: none;
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
+    color: rgb(95, 92, 92);
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .h-host:hover{
+    background-color: rgba(215, 223, 223, 0.432);
+  }
+  #h-profile{
+    height: 40px;
+    width: 82px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  #h-profile:hover{
+     box-shadow: 0 2px 4px 0 #ccc, 0 4px 8px 0 #ccc;
+  }
+  .h-triple_bar{
+    height: 16px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+  }
+  .h-internet{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+  }
+   .h-login{
+    width: 30px;
+    height: 30px;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    border-radius: 50%;
+  }
+  .h-int_btn{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 0;
+  }
+  .h-int_btn:hover{
+    background-color:  rgba(215, 223, 223, 0.432);;
+  }
+  .h-right_part{
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: 7%;
+  }

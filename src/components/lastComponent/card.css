@@ -1,0 +1,47 @@
+.l_mycard{
+    position: relative;
+}
+.l_mycard > img{
+    max-width: 190px;
+    min-height: 250px;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+.heart{
+    /* color: red; */
+    font-size: x-large;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 10px;
+    z-index: 1;
+}
+.heart:hover{
+    color: red;
+}
+.info{
+    display: flex;
+    margin-top: -5%;
+    margin-left: 12%;
+}
+.info > .fade{
+    color: rgba(119, 116, 116, 0.8);
+}
+.info > img{
+    margin-top: 18px;
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+}
+.desc{
+    margin-top: -20px;
+    margin-left: 14%; 
+    width: 180px;
+}
+.money_data{
+    margin-top: -20px;
+    display: flex;
+}
+.money{
+    margin-left: 14%;
+    font-weight: 700;
+}

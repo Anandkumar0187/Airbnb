@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    margin-top: -20px;
+}
+.default-btn{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.default-btn > button{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #cccc;
+    background-color: white;
+}
+.default-btn > button:hover{
+    border: 1px solid black;
+}
+.prod-list{
+    border-left: 2px solid #cccc;
+    padding-left: 10px;
+    margin-left: 2%;
+    display: flex;
+}
+.prod-list > div{
+    padding-top: 20px;
+}
+.prod-list > div > button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    font-weight: 600;
+    color: #cccc;
+    font-size: larger;
+    border: 1px solid #cccc;
+}
+.prod-list > div > button:hover{
+    color: rgb(20, 20, 20);
+}
+.prod-nxt{
+    padding-left: 10px;
+    margin-left: 2%;
+    display: flex;
+}
+.prod-nxt > div > button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    font-weight: 600;
+    color: #cccc;
+    font-size: larger;
+    border: 1px solid #cccc;
+}
+.prod-nxt > div > button:hover{
+    color: rgb(20, 20, 20);
+}
+.products{
+    padding: 10px 10px;
+    width: 800px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,38 @@
+.l_carousel{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+.l_btns{
+    display: flex;
+    margin-top: -20px;
+}
+.l_btns > div > h1{
+    padding-left: 50px;
+}
+.l_slider-btn{
+    margin-left: auto;
+    margin-top: 20px;
+    padding-right: 16px;
+}
+
+.l_slider-btn > button{
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #cccc;
+    color: #cccc;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.l_slider-btn > button:hover{
+    color: black;
+}
+.l_product_container{
+    padding: 10px 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

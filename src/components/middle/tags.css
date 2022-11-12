@@ -1,0 +1,11 @@
+.prop-btn{
+    position: relative;
+}
+.prop-btn > button{
+    margin-left: 10px;
+    width: max-content;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgba(242, 247, 247, 0.993);
+    border: 0;
+}
